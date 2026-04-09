@@ -1,0 +1,16 @@
+''' Create a module named area.py that contains functions to calculate: 
+    Area of a circle
+    Area of a rectangle.'''
+
+# area.py
+import math
+
+# Function to calculate area of a circle
+def circle(radius):
+    return math.pi * radius * radius
+
+# Function to calculate area of a rectangle
+def rectangle(length, width):
+    return length * width
+
+
